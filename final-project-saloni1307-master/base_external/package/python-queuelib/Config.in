@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_QUEUELIB
+	bool "python-queuelib"
+	help
+	  Collection of persistent (disk-based) and non-persistent
+	  (memory-based) queues.
+
+	  https://github.com/scrapy/queuelib

@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_GLOB2
+	bool "python-glob2"
+	help
+	  Version of the glob module that can capture patterns and
+	  supports recursive wildcards.
+
+	  http://github.com/miracle2k/python-glob2/

@@ -1,0 +1,22 @@
+#! /bin/sh
+
+case "$1" in
+        start)
+                echo "Starting Linux Device Driver"
+		start-stop-daemon -S -n scull_load -a /usr/bin/scull_load
+		start-stop-daemon -S -n module_load -a /usr/bin/module_load -- faulty
+		modprobe hello
+                ;;
+        stop)
+                echo "Stopping Linux Device Driver"
+		start-stop-daemon -S -n scull_unload -a /usr/bin/scull_unload
+		start-stop-daemon -S -n module_unload -a /usr/bin/module_unload -- faulty
+		rmmod hello
+                ;;
+        *)
+                echo "Usage: $0 {start|stop}"
+        exit 1
+esac
+
+exit 0
+

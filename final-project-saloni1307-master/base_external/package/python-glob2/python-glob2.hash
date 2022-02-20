@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/glob2/json
+md5	762be5ff1a29c0c3a1564e949e5d1228  glob2-0.7.tar.gz
+sha256	85c3dbd07c8aa26d63d7aacee34fa86e9a91a3873bc30bf62ec46e531f92ab8c  glob2-0.7.tar.gz
+# Locally computed sha256 checksums
+sha256	99fc9556fa50ed3519996971bf2ec1abf9f4b63f0f3f4ed15cdee84e306134b7  LICENSE

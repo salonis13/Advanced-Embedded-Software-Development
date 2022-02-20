@@ -1,0 +1,4 @@
+config BR2_PACKAGE_QT_THREAD_UPDATER
+	bool "qt-thread-updater"
+	help
+	  Includes the qt-thread-updater package for python.

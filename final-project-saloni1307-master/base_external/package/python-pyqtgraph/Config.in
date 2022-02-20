@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_PYQTGRAPH
+	bool "python-pyqtgraph"
+	select BR2_PACKAGE_PYTHON_NUMPY # runtime
+	help
+	  Scientific Graphics and GUI Library for Python.
+
+	  http://www.pyqtgraph.org

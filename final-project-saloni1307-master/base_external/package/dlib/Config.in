@@ -1,0 +1,43 @@
+config BR2_PACKAGE_DLIB
+	bool "dlib"
+	depends on BR2_INSTALL_LIBSTDCPP
+	depends on BR2_TOOLCHAIN_HAS_THREADS
+	depends on !BR2_TOOLCHAIN_HAS_GCC_BUG_64735 # exception_ptr
+	select BR2_PACKAGE_JPEG
+	select BR2_PACKAGE_LIBPNG
+	help
+	  Dlib is a modern C++ toolkit containing machine learning
+	  algorithms and tools for creating complex software in C++
+	  to solve real world problems. It is used in both industry
+	  and academia in a wide range of domains including robotics,
+	  embedded devices, mobile phones, and large high performance
+	  computing environments. Dlib's open source licensing allows
+	  you to use it in any application, free of charge.
+
+	  http://dlib.net
+
+if BR2_PACKAGE_DLIB
+
+config BR2_PACKAGE_DLIB_GUI_SUPPORT
+	bool "dlib GUI support"
+	depends on BR2_PACKAGE_XORG7
+	select BR2_PACKAGE_XLIB_LIBXEXT
+	help
+	  This option enable the GUI widgets using X.Org.
+
+comment "dlib GUI support needs X.Org"
+	depends on !BR2_PACKAGE_XORG7
+
+config BR2_PACKAGE_DLIB_PYTHON_MODULE
+	bool "python-dlib"
+	depends on BR2_PACKAGE_PYTHON || BR2_PACKAGE_PYTHON3
+	help
+	  This option provide the dlib python module.
+
+endif
+
+comment "dlib needs a toolchain w/ C++, threads"
+	depends on !BR2_INSTALL_LIBSTDCPP || !BR2_TOOLCHAIN_HAS_THREADS
+
+comment "dlib needs exception_ptr"
+	depends on BR2_TOOLCHAIN_HAS_GCC_BUG_64735

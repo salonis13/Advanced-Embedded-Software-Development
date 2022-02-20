@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_FACE_RECOGNITION_MODELS
+	bool "python-face-recognition-models"
+	help
+	  Models used by the face_recognition package.
+
+	  https://github.com/ageitgey/face_recognition_models

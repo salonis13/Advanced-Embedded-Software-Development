@@ -1,0 +1,6 @@
+# md5, sha256 from https://pypi.org/pypi/pyqt-builder/json
+md5	e5b1272d9cbdb940f383360578566692  PyQt-builder-1.12.2.tar.gz
+sha256	f62bb688d70e0afd88c413a8d994bda824e6cebd12b612902d1945c5a67edcd7  PyQt-builder-1.12.2.tar.gz
+# Locally computed sha256 checksums
+sha256	2c93b5d4af4cfdfe8d7551b2bfe971e39deb37a8ae2d40765f3fd63846418c63  LICENSE
+sha256	2004ee3ef8282a85f7dbd035dfacf63cf03d569537bc08655ffeb140ea3671c5  pyqtbuild/bundle/qt_wheel_distinfo/LICENSE

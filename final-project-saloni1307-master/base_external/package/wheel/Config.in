@@ -1,0 +1,4 @@
+config BR2_PACKAGE_WHEEL
+	bool "wheel"
+	help
+	  Includes the wheel package for python.

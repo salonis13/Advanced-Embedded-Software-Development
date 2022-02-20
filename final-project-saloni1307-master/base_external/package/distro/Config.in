@@ -1,0 +1,4 @@
+config BR2_PACKAGE_DISTRO
+	bool "distro"
+	help
+	  Includes the distro package for python.

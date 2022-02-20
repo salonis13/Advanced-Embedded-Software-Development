@@ -1,0 +1,11 @@
+config BR2_PACKAGE_PYTHON_FACE_RECOGNITION
+	bool "python-face-recognition"
+	select BR2_PACKAGE_PYTHON_CLICK # runtime
+	select BR2_PACKAGE_PYTHON_DLIB # runtime
+	select BR2_PACKAGE_PYTHON_FACE_RECOGNITION_MODELS # runtime
+	select BR2_PACKAGE_PYTHON_NUMPY # runtime
+	select BR2_PACKAGE_PYTHON_PILLOW # runtime
+	help
+	  Recognize faces from Python or from the command line.
+
+	  https://github.com/ageitgey/face_recognition

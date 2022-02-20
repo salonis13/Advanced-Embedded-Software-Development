@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/queuelib/json
+md5	c64bb48ef41e464498755e3a94d5078d  queuelib-1.6.2.tar.gz
+sha256	4b207267f2642a8699a1f806045c56eb7ad1a85a10c0e249884580d139c2fcd2  queuelib-1.6.2.tar.gz
+# Locally computed sha256 checksums
+sha256	13d9ddde1b026748ce91b799f32f9741fd5ecc2bfdf267174a10fb49610c61ab  LICENSE

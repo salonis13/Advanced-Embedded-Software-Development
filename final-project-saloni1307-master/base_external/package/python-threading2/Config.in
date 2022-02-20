@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PYTHON_THREADING2
+	bool "python-threading2"
+	help
+	  A multithreading interface.

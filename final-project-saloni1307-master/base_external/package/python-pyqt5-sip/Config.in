@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_PYQT5_SIP
+	bool "python-pyqt5-sip"
+	help
+	  The sip module support for PyQt5.
+
+	  https://www.riverbankcomputing.com/software/sip/

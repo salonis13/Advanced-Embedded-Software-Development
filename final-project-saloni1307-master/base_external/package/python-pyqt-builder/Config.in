@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_PYQT_BUILDER
+	bool "python-pyqt-builder"
+	select BR2_PACKAGE_PYTHON_PACKAGING # runtime
+	select BR2_PACKAGE_PYTHON_SIP # runtime
+	help
+	  The PEP 517 compliant PyQt build system.
+
+	  https://www.riverbankcomputing.com/software/pyqt-builder/

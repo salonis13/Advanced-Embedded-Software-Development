@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_QTPY
+	bool "python-qtpy"
+	help
+	  Provides an abstraction layer on top of the various Qt
+	  bindings (PyQt5, PyQt4 and PySide) and additional custom
+	  QWidgets.
+
+	  https://github.com/spyder-ide/qtpy

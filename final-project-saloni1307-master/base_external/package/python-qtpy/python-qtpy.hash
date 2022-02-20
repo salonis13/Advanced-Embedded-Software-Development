@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/qtpy/json
+md5	d69dbafee8cea0e941b13975958b4c83  QtPy-1.11.2.tar.gz
+sha256	d6e4ae3a41f1fcb19762b58f35ad6dd443b4bdc867a4cb81ef10ccd85403c92b  QtPy-1.11.2.tar.gz
+# Locally computed sha256 checksums
+sha256	0d9af5c5628f07b24784b3deb6a96925e918974d3a80d5d2ba174676a7e42a61  LICENSE.txt

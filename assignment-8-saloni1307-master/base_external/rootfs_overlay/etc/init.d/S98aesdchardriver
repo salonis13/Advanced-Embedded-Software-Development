@@ -1,0 +1,18 @@
+#! /bin/sh
+
+case "$1" in
+        start)
+                echo "Starting aesdchardriver"
+                start-stop-daemon -S -n aesdchar_load -a /usr/bin/aesdchar_load
+                lsmod
+                ;;
+        stop)
+                echo "Stopping aesdchardriver"
+                start-stop-daemon -S -n aesdchar_unload -a /usr/bin/aesdchar_unload
+                ;;
+        *)
+                echo "Usage: $0 {start|stop}"
+        exit 1
+esac
+
+exit 0

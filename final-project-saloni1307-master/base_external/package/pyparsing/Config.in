@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PYPARSING
+	bool "pyparsing"
+	help
+	  Includes the pyparsing package for python.

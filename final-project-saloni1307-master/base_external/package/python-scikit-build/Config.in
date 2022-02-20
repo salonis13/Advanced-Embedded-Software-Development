@@ -1,0 +1,12 @@
+config BR2_PACKAGE_PYTHON_SCIKIT_BUILD
+	bool "python-scikit-build"
+	select BR2_PACKAGE_PYTHON_DISTRO # runtime
+	select BR2_PACKAGE_PYTHON_PACKAGING # runtime
+	select BR2_PACKAGE_PYTHON_SETUPTOOLS # runtime
+	select BR2_PACKAGE_PYTHON_SETUPTOOLS # runtime
+	select BR2_PACKAGE_PYTHON_WHEEL # runtime
+	help
+	  Improved build system generator for Python
+	  C/C++/Fortran/Cython extensions.
+
+	  https://github.com/scikit-build/scikit-build

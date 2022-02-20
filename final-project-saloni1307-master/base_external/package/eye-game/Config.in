@@ -1,0 +1,4 @@
+config BR2_PACKAGE_EYE_GAME
+	bool "eye-game"
+	help
+	  Includes the eye-game package for python.

@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_SOCKETS
+	bool "python-sockets"
+	help
+	  Python package which allows creation of simple servers and
+	  clients for communication with sockets.
+
+	  https://github.com/eshiofune/sockets

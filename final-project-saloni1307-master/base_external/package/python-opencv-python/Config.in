@@ -1,0 +1,19 @@
+config BR2_PACKAGE_PYTHON_OPENCV_PYTHON
+	bool "python-opencv-python"
+	select BR2_PACKAGE_ # runtime
+	select BR2_PACKAGE_ # runtime
+	select BR2_PACKAGE_ # runtime
+	select BR2_PACKAGE_ # runtime
+	select BR2_PACKAGE_PYTHON_1 # runtime
+	select BR2_PACKAGE_PYTHON_1 # runtime
+	select BR2_PACKAGE_PYTHON_3 # runtime
+	select BR2_PACKAGE_PYTHON_7 # runtime
+	select BR2_PACKAGE_PYTHON_M # runtime
+	select BR2_PACKAGE_PYTHON_N # runtime
+	select BR2_PACKAGE_PYTHON_P # runtime
+	select BR2_PACKAGE_PYTHON_U # runtime
+	select BR2_PACKAGE_PYTHON_Y # runtime
+	help
+	  Wrapper package for OpenCV python bindings.
+
+	  https://github.com/skvark/opencv-python

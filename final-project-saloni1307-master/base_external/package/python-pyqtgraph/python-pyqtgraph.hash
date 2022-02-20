@@ -1,0 +1,7 @@
+# md5, sha256 from https://pypi.org/pypi/pyqtgraph/json
+md5	b20be94e497f0ab59121c46aa1623964  pyqtgraph-0.12.3.tar.gz
+sha256	f1dfee710fa5e9abaaf3d4dff0116659e6c7b4e7b514870c5cddad268a753d74  pyqtgraph-0.12.3.tar.gz
+# Locally computed sha256 checksums
+sha256	71f42836084f6afc4a577b79fd5f03c094b95ff3496795c877bf0564dd4c4d6e  LICENSE.txt
+sha256	15137d6c822e3ab097093a33c3a39a9df699f373f6438867ad534ff60762a947  pyqtgraph/util/colorama/LICENSE.txt
+sha256	027e3e32b937b78e975f9677bef770328d6a55db78d56dd86246e416699aeff3  pyqtgraph/metaarray/license.txt
